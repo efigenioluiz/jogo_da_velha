@@ -2,9 +2,6 @@
 import sys
 import errno
 from random import randint
-def clear():
-    for a in range(0,10):
-            print("\n")
 
 if __name__ == "__main__":
     flag=1
