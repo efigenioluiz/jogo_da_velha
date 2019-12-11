@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import sys
+import os
 import errno
 from random import randint
 
@@ -18,7 +19,7 @@ if __name__ == "__main__":
     h=' '
     i=' '   
     while flag > 0:
-            clear() 
+            os.system('clear') 
             print("*"*30)
             print("* \033[4m {0} \033[0m|\033[4m {1} \033[0m|\033[4m {2} \033[0m ** \033[4m a \033[0m|\033[4m b \033[0m|\033[4m c \033[0m *".format(a,b,c))
             print("* \033[4m {0} \033[0m|\033[4m {1} \033[0m|\033[4m {2} \033[0m ** \033[4m d \033[0m|\033[4m e \033[0m|\033[4m f \033[0m *".format(d,e,f))
